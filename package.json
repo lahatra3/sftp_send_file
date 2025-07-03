@@ -1,0 +1,16 @@
+{
+  "name": "sftp_send_file",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/ssh2-sftp-client": "^9.0.4"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "ssh2-sftp-client": "^12.0.0"
+  }
+}
